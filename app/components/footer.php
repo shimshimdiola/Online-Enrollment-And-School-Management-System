@@ -1,0 +1,1 @@
+<footer class="footer">© <?php echo date('Y'). ' ' . SYS_TITTLE; ?> By: Evsu-DC Student.</footer>

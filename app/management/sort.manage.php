@@ -1,0 +1,6 @@
+ <button type="button" class="btn <?php echo ($d_s == '') ? 'btn-secondary' : 'btn-primary'; ?> waves-effect waves-light" onclick="S_um_all()"><i class="fas fa-align-justify mr-2 "></i>All</button>
+ <button type="button" class="btn <?php echo ($d_s == 'student') ? 'btn-secondary' : 'btn-primary'; ?> waves-effect waves-light" onclick="S_um('student')"><i class="fas fa-user-graduate mr-2 "></i>Student</button>
+ <button type="button" class="btn <?php echo ($d_s == 'faculty') ? 'btn-secondary' : 'btn-primary'; ?> waves-effect waves-light" onclick="S_um('faculty')"><i class="fas fa-user-tie mr-2 "></i>Teacher</button>
+ <button type="button" class="btn <?php echo ($d_s == 'registrar') ? 'btn-secondary' : 'btn-primary'; ?> waves-effect waves-light" onclick="S_um('registrar')"><i class="fas fa-user-cog mr-2 "></i>Registrar / Staff</button>
+ <button type="button" class="btn <?php echo ($d_s == 'admin') ? 'btn-secondary' : 'btn-primary'; ?> waves-effect waves-light" onclick="S_um('admin')"><i class="fas fa-user-shield mr-2 "></i>Administrator</button>
+ <button type="button" class="btn btn-success waves-effect waves-light float-right" data-toggle="modal" data-animation="bounce" data-target=".bs-example-modal-lg">

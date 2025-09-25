@@ -1,0 +1,249 @@
+  <form id="E_form"  action="#" > 
+    <!-- novalidate="" -->
+      <div class="row">
+          <div class="col-md-4 mb-3">
+              <label for="lrn">Learner Reference Number</label>
+              <input type="text" class="form-control" id="lrn" required="" placeholder="Learner Reference Number">
+          </div>
+          <div class="col-md-4 mb-3">
+              <label for="input1">Student Type</label>
+              <select id="std_typ" onchange="Sdt_typ(this)" required class="form-control">
+                  <option></option>
+                  <option>New enrollee</option>
+                  <option>Contenuing</option>
+                  <!-- <option>transferee</option> -->
+                  <option>returnee</option>
+              </select>
+          </div>
+          <div class="col-md-4 mb-3">
+              <label for="input1">Grade level</label>
+              <select required class="form-control">
+                  <option></option>
+                  <option>7</option>
+                  <option>8</option>
+                  <option>9</option>
+                  <option>10</option>
+                  <option>11</option>
+                  <option>12</option>
+              </select>
+          </div>
+          <!-- personal details -->
+          <div class="col-md-4 mb-3">
+              <label for="input1">Firstname</label>
+              <input type="text" class="form-control" id="input1" required="" placeholder="Firstname">
+          </div>
+          <div class="col-md-4 mb-3">
+              <label for="input1">Last name</label>
+              <input type="text" class="form-control" id="input1" required="" placeholder="Last name">
+          </div>
+          <div class="col-md-4 mb-3">
+              <label for="input1">Middle name</label>
+              <input type="text" class="form-control" id="input1" required="" placeholder="Middle name">
+          </div>
+
+          <!-- ///// -->
+          <div class="col-md-4 mb-3">
+              <label for="input1">Date of birth</label>
+              <input type="date" class="form-control" required="" placeholder="mm/dd/yyyy" id="datepicker">
+
+          </div>
+          <div class="col-md-4 mb-3">
+              <label for="input1">Birth place</label>
+              <input type="text" class="form-control" id="input1" required="" placeholder="Birth place">
+          </div>
+          <div class="col-md-4 mb-3">
+              <label for="input1">Sex <small>(Male/Female)</small></label>
+              <input type="text" class="form-control" id="input1" required="" placeholder="Sex">
+          </div>
+          <!-- ///// -->
+          <div class="col-md-4 mb-3">
+              <label for="input1">Civil Status *</label>
+              <select required class="form-control">
+                  <option></option>
+                  <option>Single</option>
+                  <option>Married</option>
+                  <option>Annulled</option>
+                  <option>Widowed</option>
+                  <option>Separated</option>
+              </select>
+          </div>
+          <div class="col-md-4 mb-3">
+              <label for="input1">Indigenous People Affiliation</label>
+              <input type="text" class="form-control" id="input1" required="" placeholder="Indigenous People Affiliation">
+          </div>
+          <div class="col-md-4 mb-3">
+              <label for="input1">Type of disability</label>
+              <input type="text" class="form-control" id="input1" required="" placeholder="disability">
+          </div>
+          <!-- ///// -->
+          <div class="col-md-4 mb-3">
+              <label for="input1">4Ps Number</label>
+              <input type="text" class="form-control" id="input1" required="" placeholder="4Ps Number">
+          </div>
+          <div class="col-md-4 mb-3">
+              <label for="input1">Citizenship*</label>
+              <input type="text" class="form-control" id="input1" required="" placeholder="Citizenship*">
+          </div>
+          <!-- //// -->
+
+      </div>
+      <hr>
+      <h4 class="mt-0 header-title">Permanent Address and Contact Info.</h4>
+      <!-- <p class="text-muted mb-4 font-13"></p> -->
+
+      <div class="row">
+
+          <div class="col-md-4 mb-3">
+              <label for="input1">Barangay</label>
+              <input type="text" class="form-control" id="input1" required="" placeholder="Barangay">
+          </div>
+          <div class="col-md-4 mb-3">
+              <label for="input1">City/Municipality/Province/Country</label>
+              <input type="text" class="form-control" id="input1" required="" placeholder="Municipality">
+          </div>
+          <div class="col-md-4 mb-3">
+              <label for="input1">Zip Code</label>
+              <input type="number" class="form-control" id="input1" required="" placeholder="-----">
+          </div>
+
+
+
+          <!-- ///// -->
+          <div class="col-md-4 mb-3">
+              <label for="input1">Email *</label>
+              <input type="email" class="form-control" id="input1" required="" placeholder="Email">
+          </div>
+          <div class="col-md-4 mb-3">
+              <label for="input1">Mobile Number*</label>
+              <input type="text" placeholder="" required="" data-mask="(+63999) 999-9999" class="form-control">
+          </div>
+      </div>
+      <hr>
+      <h4 class="mt-0 header-title">Father's Name Information</h4>
+      <p class="text-muted mb-4 font-13"></p>
+      <div class="row">
+
+          <div class="col-md-4 mb-3">
+              <label for="input1">Last Name</label>
+              <input type="text" class="form-control" id="input1" required="" placeholder="Last Name">
+          </div>
+          <div class="col-md-4 mb-3">
+              <label for="input1">First Name</label>
+              <input type="text" class="form-control" id="input1" required="" placeholder="First Name">
+          </div>
+          <div class="col-md-4 mb-3">
+              <label for="input1">Middle Name</label>
+              <input type="text" class="form-control" id="input1" required="" placeholder="Middle Name">
+          </div>
+      </div>
+      <hr>
+      <h4 class="mt-0 header-title">Mother's Maiden Name Information</h4>
+      <p class="text-muted mb-4 font-13"></p>
+      <div class="row">
+
+          <div class="col-md-4 mb-3">
+              <label for="input1">Last Name</label>
+              <input type="text" class="form-control" id="input1" required="" placeholder="Last Name">
+          </div>
+          <div class="col-md-4 mb-3">
+              <label for="input1">First Name</label>
+              <input type="text" class="form-control" id="input1" required="" placeholder="First Name">
+          </div>
+          <div class="col-md-4 mb-3">
+              <label for="input1">Middle Name</label>
+              <input type="text" class="form-control" id="input1" required="" placeholder="Middle Name">
+          </div>
+      </div>
+      <hr>
+      <h4 class="mt-0 header-title">For Returning Learners (Balik-Aral) and Those Who Shall Transfer/Move In</h4>
+      <p class="text-muted mb-4 font-13">
+
+      <div class="custom-control custom-checkbox"><input type="checkbox" class="custom-control-input b-stat" id="customCheck2" onchange="F_b(this)"> <label class="custom-control-label" for="customCheck2">For Returning Learners (Balik-Aral).</label></div>
+
+      </p>
+      <!-- For Returning Learners (Balik-Aral) -->
+      <div id="show_b" style="display:none;">
+          <div class="row">
+              <div class="col-md-4 mb-3">
+                  <label for="">Last Grade Level Completed</label>
+                  <select id="std_req1" class="form-control">
+                      <option></option>
+                      <option>7</option>
+                      <option>8</option>
+                      <option>9</option>
+                      <option>10</option>
+                      <option>11</option>
+                      <option>12</option>
+                  </select>
+              </div>
+              <div class="col-md-4 mb-3">
+                  <label for="">Last School Year Completed</label>
+                  <input type="number" class="form-control" id="std_req2" maxlength="4" placeholder="----">
+              </div>
+              <div class="col-md-4 mb-3">
+                  <label for="">School Name</label>
+                  <input type="text" class="form-control" id="std_req3" placeholder="School Name">
+              </div>
+              <div class="col-md-4 mb-3">
+                  <label for="">School ID</label>
+                  <input type="text" class="form-control" id="std_req4" placeholder="----/----/----">
+              </div>
+              <div class="col-md-4 mb-3">
+                  <label for="">School Address</label>
+                  <input type="text" class="form-control" id="std_req5" placeholder="School Address">
+              </div>
+
+          </div>
+
+      </div>
+
+
+
+      <hr>
+      <h4 class="mt-0 header-title">For Learners in Senior High School</h4>
+      <p class="text-muted mb-4 font-13">
+
+      <div class="custom-control custom-checkbox"><input type="checkbox" class="custom-control-input b-stat" id="customCheck1" onclick="F_s(this)"> <label class="custom-control-label" for="customCheck1"> Senior High School</label></div>
+
+      </p>
+      <div id="show_s" style="display:none;">
+          <div class="row">
+              <div class="col-md-4 mb-3">
+                  <label for="">Semester</label>
+                  <select class="form-control">
+                      <option></option>
+                      <option>1st sem</option>
+                      <option>2nd sem</option>
+
+                  </select>
+              </div>
+              <div class="col-md-4 mb-3">
+                  <label for="">Track</label>
+                  <input type="text" class="form-control" id="" maxlength="4" placeholder="Track">
+              </div>
+              <div class="col-md-4 mb-3">
+                  <label for="">Strand (if any)</label>
+                  <input type="text" class="form-control" id="" placeholder="Strand (if any)">
+              </div>
+
+
+          </div>
+
+      </div>
+      <div class="form-group mb-0 mt-2">
+          <div>
+              <button type="submit" class="btn btn-primary waves-effect waves-light">
+                  Update
+              </button>
+
+              <button type="reset" class="btn btn-secondary waves-effect m-l-5">
+                  Cancel
+              </button>
+          </div>
+      </div>
+  </form>
+
+
+<?php 
+
+?>
