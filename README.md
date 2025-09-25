@@ -1,17 +1,12 @@
-# Online Enrollment and School Management System
+# Online Enrollment and School Management System  
 
-A comprehensive web-based platform designed to streamline and automate key administrative and academic processes for educational institutions. This system provides a centralized solution for online student enrollment, school management, and communication among all stakeholders.
+![Header Image](https://shimshimdiola.github.io/images/project/OEMS.png)  
+
+A comprehensive web-based platform designed to streamline and automate key administrative and academic processes for educational institutions. This system provides a centralized solution for online student enrollment, school management, and communication among all stakeholders.  
 
 ---
 
-## Table of Contents
-- [Features](#features)
-- [User Roles](#user-roles)
-- [Getting Started](#getting-started)
-  - [Prerequisites](#prerequisites)
-  - [Installation](#installation)
-- [License](#license)
-- [Contact](#contact)
+
 
 ---
 
